@@ -19,7 +19,7 @@ header ul{
     margin: 1em;
 }
 header ul li{
-    display: inline-block;
+    display: inline-block; 
     border: 1px solid #F5BD26;
     margin: 1px;
     padding: 1em 2em;
