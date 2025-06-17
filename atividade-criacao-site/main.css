@@ -1,0 +1,103 @@
+*{
+    background-color: #faf8f5;
+    font-family: garamond;
+    margin: 0%;
+    padding: 0%;
+    vertical-align: middle;
+}
+header h1{
+   padding-top: 1em;
+   text-align: center;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+header ul li{
+    display: inline-block;
+    border: 1px solid #F5BD26;
+    margin: 1px;
+    padding: 1em 2em;
+    font-size: 30px;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header a:hover{
+    color: #F5BD26;
+}
+figure img{
+    border-top: 4px solid #F5BD26;
+    border-bottom: 4px solid #F5BD26 ;
+    border-left: 4px solid #F5BD26;
+    border-right:4px solid #F5BD26; 
+    margin: auto;
+    display: block;
+    margin-bottom: 2em;
+    padding-top: 0;
+
+}
+main ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+li{
+    list-style: none;
+}
+section h3{
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    border-bottom: 1px solid #F5BD26;
+
+}
+section p{
+    font-style: italic;
+    padding-top: 2em;
+    margin-bottom: 2em;         
+    text-align: center;   
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+footer address{
+    background-color: white;
+    padding: 2em 2em ;  
+    text-align: center;       
+}
+aside h3{
+    font-style: italic;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    border-bottom: 1px solid #F5BD26;
+
+}
+aside p{
+    font-style: italic;
+    padding-top: 2em;
+    margin-bottom: 2em;         
+    text-align: center; 
+    max-width: 800px;  
+    margin-left: auto;
+    margin-right: auto;  
+}
+aside h2{
+    text-align: center;
+}
+aside ol{
+    list-style: none;
+    text-align: center;
+    margin: 1em;
+}
+.atual a{
+    color: #F5BD26;
+}
