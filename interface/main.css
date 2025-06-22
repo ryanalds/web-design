@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif; 
+}
+
+body{
+    background-color: #A6A6A6f2;
+    background-image: url(imagens/foto1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #A6A6A6f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img{
+    height: 130px;
+    margin-left: 7em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 7em;
+} 
+
+nav ul li{
+    font-size: 20px;
+    border-right: 1px solid #0D0D0D ;
+    padding-right: 10px;
+    padding-left: 10px;
+}  
+
+nav ul li:last-child{
+    border-right: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  #0D0D0D;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #6B5723;
+}
+
+main{
+    background-color: #A6A6A6f2;
+    margin-top: 30em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+main  article h2{
+    font-weight: 100;
+    font-size: 35px;
+    color: #0D0D0D;
+    text-align: center;
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #0D0D0D;
+    margin-left: 1em;
+    margin-right: 1em;
+}  
+
+main  article ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+main article ul li{
+    padding: 1em;
+}
+
+main  article ul li img{
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+main article ul span{
+    display: block;
+    text-align: center;
+    max-width: 180px;
+}
+
+footer{
+    margin-top: 3em;
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer address{
+    background-color: white;
+    margin-left: 4em;
+    margin-bottom: 1em;
+    font-weight: 100;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top: 1px solid #0D0D0D;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+footer p {
+    padding-top: 1em;
+    background-color: white;
+    font-weight: 100;    
+  
+}
+
+footer a{
+    background-color: white;
+    text-decoration: none;
+    color: #0D0D0D;
+}
