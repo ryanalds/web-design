@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header{
+    background:linear-gradient(to right, #315368, #67889C);
+    padding: 2rem;
+}
+
+header h1{
+    color: white;
+}
+
+header p{
+    color: white;
+    padding-top: 5px;
+}
+
+main{
+    margin-top: 1em;
+    height: 100vh;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #C4D0D9;
+}
+
+nav ol{
+    list-style: none;
+    font-size: 32px;
+    text-align: left;
+}
+
+nav ol li{
+    padding-top: 1em;
+    padding-left: 10px;
+}
+
+nav ol a{
+    text-decoration: none;
+    color: #39788F;
+}
+
+section{
+    margin: 0 auto;
+    display: grid;
+    max-width: 1512px;
+    gap: 10px;
+    height: 738px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav x p p p pl3"
+    "nav y f f pl2 pl4"
+    "nav pl1 f f z z";
+}
+
+#card_1{
+    grid-area: x;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+}
+
+#card_1 p {
+    text-align: left;
+    max-width: 210px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 1em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+#card_1 span{
+    border: 1px solid #315368;
+    margin-left: 20px;
+}
+
+#card_1 a{
+    text-decoration: none;
+    color: #315368;
+}
+
+
+#card_2{
+    grid-area: y;
+    background-color: #ECECEC;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#card_2 ul{
+    margin: auto;
+    text-align: left;
+}
+
+#card_2 ul li{
+    padding-bottom: 1em;
+    font-size: 15px;
+}
+
+#palestrante_1{
+    grid-area: pl1;
+    box-sizing: border-box;
+    background-image: url(imagens/foto1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#palestrante_1 span{
+    background-color: #14131377;
+    padding: 1.5em;
+    display: flex;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+#programação{
+    grid-area: p;
+    background-color: #ECECEC;
+}
+#programação h2{
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.tabela{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    box-sizing: border-box;
+}
+#linha1{
+    display: flex;
+}
+#linha2{
+    display: flex;
+}
+#linha1 p{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 0.2em 3em;
+    font-size: 15px;
+}
+#linha1 table td{
+    border: 2px solid white;
+    padding: 0.2em 3em;
+    font-size: 15px;
+}
+#linha2 p{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 0em 3em;
+    font-size: 15px;
+}
+#linha2 table td{
+    border: 2px solid white;
+    padding: 0.2em 3em;
+    font-size: 15px;
+}
+
+#forms{
+    grid-area: f;
+    background-color: #ECECEC;
+    box-sizing: border-box;
+}
+
+#forms form{
+    margin-left: 5em;
+}
+
+#forms h2{
+    font-size: 30px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#forms input{
+    font-size: 15px;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10em;
+    margin-bottom: 1em;
+    border: 2px solid black;
+}
+
+#forms button{
+    font-size: 20px;
+    background-color: black;
+    color: grey;
+    padding: 0.5em 4em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+#palestrante_2{
+    grid-area: pl2;
+    background-color: #ECECEC;
+    background-image: url(imagens/foto2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#palestrante_2 span{
+    background-color: #14131377;
+    padding: 1.5em;
+    display: flex;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+#palestrante_3{
+    grid-area: pl3;
+    background-color: #ECECEC;
+    background-image: url(imagens/foto3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#palestrante_3 span{
+    background-color: #14131377;
+    padding: 1.5em;
+    display: flex;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+
+#palestrante_4{
+    grid-area: pl4;
+    background-color: #ECECEC;
+    background-image: url(imagens/foto4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#palestrante_4 span{
+    background-color: #14131377;
+    padding: 1.5em;
+    display: flex;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5em;
+}
+
+#card_3{
+    grid-area: z;
+    background-color: #ECECEC;
+}
+
+#card_3 h2{
+    font-size: 30px;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#card_3 p{
+    font-size: 16px;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+#card_3 ul{
+    font-size: 16px;
+    margin-left: 3.5em;
+    margin-bottom: 1em;
+}
+#card_3 ul li{
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: #315368;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+}
