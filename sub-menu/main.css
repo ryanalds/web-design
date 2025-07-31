@@ -46,6 +46,7 @@ section ul li a:hover{
 .drop a{
     background-color: #3d6e3c;
     text-align: center;
+    width: 264px.13;
 }
 
 .drop-hover:hover .drop{
