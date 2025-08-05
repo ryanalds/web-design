@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     font-family: sans-serif;
+    font-family: 'cormorant',sans-serif;
 }
 
 body{
@@ -11,6 +12,7 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 header{
@@ -94,18 +96,29 @@ main article img{
 .facebook:hover{
     content: url(imagens/facebook\ .png);
     transition: 0.3s;
+    transform: scale(1.3);
+    z-index: 100;
 }
 
 .instagram:hover{
     content: url(imagens/instagram.png);
+      transition: 0.3s;
+    transform: scale(1.3);
+    z-index: 100;
 }
 
 .whatsapp:hover{
     content: url(imagens/whatsapp.png);
+      transition: 0.3s;
+    transform: scale(1.3);
+    z-index: 100;
 }
 
 .youtube:hover{
     content: url(imagens/youtube.png) ;
+    transition: 0.3s;
+    transform: scale(1.3);
+    z-index: 100;
 }
 
 footer{
