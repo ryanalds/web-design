@@ -103,6 +103,12 @@ main article img{
     padding-top: 1em;
 }
 
+.aside_image:hover{
+    transform: rotateY(180deg);
+    transition: 1.5s;
+    content: url(imagens/img_Aside.png);
+}
+
 footer{
     margin-top: 3em;
     background-color: white;
